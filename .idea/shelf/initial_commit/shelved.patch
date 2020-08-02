@@ -1,0 +1,56 @@
+Index: android_hello_world/gradle/wrapper/gradle-wrapper.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>#Tue May 09 20:47:20 CDT 2017\r\ndistributionBase=GRADLE_USER_HOME\r\ndistributionPath=wrapper/dists\r\nzipStoreBase=GRADLE_USER_HOME\r\nzipStorePath=wrapper/dists\r\ndistributionUrl=https\\://services.gradle.org/distributions/gradle-4.1-all.zip\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>windows-1252
+===================================================================
+--- android_hello_world/gradle/wrapper/gradle-wrapper.properties	(revision 088e4499feb6e6cdf0607af2e2f7a595b788bc58)
++++ android_hello_world/gradle/wrapper/gradle-wrapper.properties	(date 1595385607991)
+@@ -1,6 +1,6 @@
+-#Tue May 09 20:47:20 CDT 2017
++#Tue Jul 21 21:40:07 CDT 2020
+ distributionBase=GRADLE_USER_HOME
+ distributionPath=wrapper/dists
+ zipStoreBase=GRADLE_USER_HOME
+ zipStorePath=wrapper/dists
+-distributionUrl=https\://services.gradle.org/distributions/gradle-4.1-all.zip
++distributionUrl=https\://services.gradle.org/distributions/gradle-6.1.1-all.zip
+Index: android_hello_world/build.gradle
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>buildscript {\r\n    repositories {\r\n        jcenter()\r\n        google()\r\n    }\r\n    dependencies {\r\n        classpath 'com.android.tools.build:gradle:3.0.1'\r\n    }\r\n}\r\n\r\nallprojects {\r\n    repositories {\r\n        jcenter()\r\n        google()\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- android_hello_world/build.gradle	(revision 088e4499feb6e6cdf0607af2e2f7a595b788bc58)
++++ android_hello_world/build.gradle	(date 1595385607980)
+@@ -4,7 +4,7 @@
+         google()
+     }
+     dependencies {
+-        classpath 'com.android.tools.build:gradle:3.0.1'
++        classpath 'com.android.tools.build:gradle:4.0.0'
+     }
+ }
+ 
+Index: android_hello_world/app/build/generated/source/buildConfig/debug/codepath/demos/helloworlddemo/BuildConfig.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- android_hello_world/app/build/generated/source/buildConfig/debug/codepath/demos/helloworlddemo/BuildConfig.java	(date 1595385760785)
++++ android_hello_world/app/build/generated/source/buildConfig/debug/codepath/demos/helloworlddemo/BuildConfig.java	(date 1595385760785)
+@@ -0,0 +1,12 @@
++/**
++ * Automatically generated file. DO NOT MODIFY
++ */
++package codepath.demos.helloworlddemo;
++
++public final class BuildConfig {
++  public static final boolean DEBUG = Boolean.parseBoolean("true");
++  public static final String APPLICATION_ID = "codepath.demos.helloworlddemo";
++  public static final String BUILD_TYPE = "debug";
++  public static final int VERSION_CODE = 1;
++  public static final String VERSION_NAME = "1.0";
++}
